@@ -17,12 +17,15 @@ int main() {
   for (int i = 0; i < num_cases; i++) {
   // take in a value for calculation
   cin >> fac_val;
-
-  // make this calculation
-
-
+  int value = 1;
+    
+  // make this calculation with another loop
+  for (int k = 0; k < fac_val; k++) {
+    value = value * (k+1);
+    }
+    
   // find the value of the last digit (%10)
-
+  cout << value;
 
   // output the last digit 
 
