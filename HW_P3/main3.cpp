@@ -1,6 +1,7 @@
 /**** Last Factorial *****/
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -23,8 +24,9 @@ int main() {
     }
 
     // find the value of the last digit (%10)
-    cout << value; // comment out for kattis just a check for us
+    value = value % 10;
 
     // output the last digit
+    cout << value; // comment out for kattis just a check for us
   }
 }
