@@ -30,7 +30,12 @@ int main() {
     t = v0x / x1; 
     cout << "t = " << t << endl;
 
+    // Solve for y_total
+    y_total = ((v0 * t * sin_theta) - (.5*g*pow(t,2)));
+    cout << "y_total = " << y_total << endl;
+
     
+    N--;
   }
   
   }
