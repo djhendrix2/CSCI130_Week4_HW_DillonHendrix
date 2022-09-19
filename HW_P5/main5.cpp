@@ -35,7 +35,7 @@ int main() {
 
     // Add a loop to denote if its safe or not
 
-    if ((y_total >= (h1+1)) && (y_total <= (h2-1))){
+    if ((y_total > (h1+1)) && (y_total < (h2-1))){
       cout << "Safe" << endl;
     }
     else {

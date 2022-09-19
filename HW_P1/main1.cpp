@@ -21,43 +21,43 @@ int main() {
     cout << "\nPart b is false.";
   
   if (d % b == c % b) {
-    cout << " Part c is true.";
+    cout << "\nPart c is true.";
     }
   else
-    cout << " Part c is false.";
+    cout << "\nPart c is false.";
 
   if (a * c != d * b) {
-    cout << " Part d is true.";
+    cout << "\nPart d is true.";
     }
   else
-    cout << " Part d is false.";
+    cout << "\nPart d is false.";
   if (d * b == c * e) {
-    cout << " Part e is true.";
+    cout << "\nPart e is true.";
     }
   else
-    cout << " Part e is false.";
+    cout << "\nPart e is false.";
   
   if (!(a * b)) {
-    cout << " Part f is true.";
+    cout << "\nPart f is true.";
     }
   else
-    cout << " Part f is false.";
+    cout << "\nPart f is false.";
   
   if (!(a % b * c)) {
-    cout << " Part g is true.";
+    cout << "\nPart g is true.";
     }
   else
-    cout << " Part g is false.";
+    cout << "\nPart g is false.";
   
   if (!(c % b * a)) {
-    cout << " Part h is true.";
+    cout << "\nPart h is true.";
     }
   else
-    cout << " Part h is false.";
+    cout << "\nPart h is false.";
   
   if (b % c * a) {
-    cout << " Part i is true.";
+    cout << "\nPart i is true.";
     }
   else
-    cout << " Part i is false.";
+    cout << "\nPart i is false.";
 }
